@@ -18,7 +18,7 @@ img {
 
 .logo{
     padding: 0;
-    padding-left: 5rem;
+    padding-left: 1rem;
     margin: 0 auto;
    
 }
@@ -28,12 +28,35 @@ img {
 }
 
 header{
-    background: linear-gradient(to right, black, rgb(44, 44, 44));
+    background: black;
     text-transform: uppercase;
     position: sticky;
     top: 0;
     z-index: 1;
 
+}
+
+.p_item{
+    padding-right: 1rem;
+    font-weight: 600;   
+}
+
+.m_item{
+    margin-right: 1.5rem;
+}
+
+.f_item{
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 2rem;
+}
+
+.h_item:hover{
+    opacity: 0.6;
+}
+
+.m_item:hover{
+    opacity: 0.6;
 }
 
 .hamburguer:hover{
@@ -183,6 +206,38 @@ header{
     border: 1px solid #f0d43a;
     margin-top: 5rem;
      
+}
+
+/* Banner section */
+
+.b_section .b_padding{
+    padding-top: 2rem;
+}
+
+.b_section .bg_section{
+    display: flex;
+    justify-content: center;
+    background-image:url(/img/auri.jpg);
+    max-width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.b_section .h_padding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.b_section .bg_section h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
 }
 
   /* Footer */
